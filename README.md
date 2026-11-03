@@ -12,3 +12,13 @@
 - 数据下载地址：https://physionet.org/content/eegmmidb/1.0.0/
 - 引用：Schalk, G. (2009). EEG Motor Movement/Imagery Dataset. PhysioNet. https://doi.org/10.13026/C28G6P
 - 感谢 BCI2000 系统开发者及 PhysioNet 平台提供公开数据。
+
+
+## 实验进展 (Day 1)
+- [x] 下载并加载 PhysioNet EEGBCI 数据集。
+- [x] 成功绘制原始 EEG 信号图。
+- [x] 应用 8-30Hz 带通滤波去除噪音。
+- [ ] 下一步：提取特征 (CSP) 和分类 (LDA)。
+第一天里面的代码我基本是照着AI写的那样照葫芦画瓢写的
+## 结果展示
+![EEG Plot](eeg_plot.png)
