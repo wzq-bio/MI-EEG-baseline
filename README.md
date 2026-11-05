@@ -1,4 +1,4 @@
-# MI-EEG-baseline
+<img width="555" height="511" alt="06ca02a0928fc5e0a73410f37ebde9cc" src="https://github.com/user-attachments/assets/c9f7e942-c6b9-4724-9bb1-a1d50014ddf2" /># MI-EEG-baseline
 这是我的第一个关于BCI的兴趣小项目，打算用公开的数据去学习用Python处理EEG数据
 
 ## 我的目标
@@ -22,3 +22,9 @@
 第一天里面的代码我基本是照着AI写的那样照葫芦画瓢写的
 ## 结果展示
 ![EEG Plot](eeg_plot.png)
+- [x] 提取事件标记并切分数据 (Epoching)。
+- [x] 计算所有切片的平均脑电波形 (Average ERP)。
+- [ ] 下一步：提取特征 (CSP) 和分类 (LDA)。
+依旧照猫画虎
+## 实验结果：平均脑电波形
+![Average ERP](average_erp.png)
